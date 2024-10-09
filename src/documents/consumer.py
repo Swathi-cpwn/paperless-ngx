@@ -391,7 +391,7 @@ class ConsumerPlugin(
         if not os.path.isfile(settings.PRE_CONSUME_SCRIPT):
             self._fail(
                 ConsumerStatusShortMessage.PRE_CONSUME_SCRIPT_NOT_FOUND,
-                f"Configured pre-consumption.py "
+                f"Configured pre-consume script "
                 f"{settings.PRE_CONSUME_SCRIPT} does not exist.",
             )
 
